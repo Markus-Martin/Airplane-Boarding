@@ -9,10 +9,10 @@
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 NumPassengers = 300;        % Number of passengers
 RandVal = 10;               % Max time for passengers to load baggage
-SPR = 6;                    % Seats Per Row
+SPR = 4;                    % Seats Per Row
 RPSec = 1;                  % Rows per second (Speed of walking passengers)
 SwitchTime = [3 5];         % Time for each type of 'switch', 1 or 2 person
-IncludeBest = 1;            % Whether to include 'best method' on graph
+IncludeBest = 0;            % Whether to include 'best method' on graph
 
 
 %%
